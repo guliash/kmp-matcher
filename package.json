@@ -12,7 +12,7 @@
     "main": "kmpjs.js",
     "repository": {
         "type": "git",
-        "url": "http://github.com/guliash/kmpjs.git"
+        "url": "http://github.com/guliash/kmp-matcher.git"
     },
     "devDependencies": {
         "tape": "~3.0.0",
