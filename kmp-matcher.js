@@ -1,5 +1,5 @@
 (function() {
-    var kmp = {
+    var kmpjs = {
         kmp: function(s, p) {
             var n = s.length;
             var m = p.length;
@@ -37,8 +37,8 @@
             return prefix;
         },
     };
-    if (typeof define === 'function' && define.amd) define(function() { return kmp; });
-    else if (typeof module !== 'undefined') module.exports = kmp;
-    else if (typeof self !== 'undefined') self.kmpjs = kmp;
-    else window.kmpjs = kmp;
+    if (typeof define === 'function' && define.amd) define(function() { return kmpjs; });
+    else if (typeof module !== 'undefined') module.exports = kmpjs;
+    else if (typeof self !== 'undefined') self.kmpjs = kmpjs;
+    else window.kmpjs = kmpjs;
 })();

@@ -1,5 +1,5 @@
 var t = require('tape');
-var kmp = require('./kmpjs');
+var kmp = require('./kmp-matcher');
 
 t('test-kmp-1', function(t) {
     var result = kmp.kmp('aabbaaccdsbbaab', 'ab');

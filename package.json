@@ -1,5 +1,5 @@
 {
-    "name": "kmpjs",
+    "name": "kmp-matcher",
     "version": "0.0.1",
     "description": "Knut Morris Pratt algorithm's js realisation",
     "keywords": [
@@ -20,6 +20,6 @@
         "jshint": "~2.5.6"
     },
     "scripts": {
-        "test": "jshint kmpjs.js test.js && node test.js | faucet"
+        "test": "jshint kmp-matcher.js test.js && node test.js | faucet"
     }
 }
