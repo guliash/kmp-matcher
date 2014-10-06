@@ -9,7 +9,7 @@
     ],
     "license": "MIT",
     "author": "Artem Gilmudinov",
-    "main": "kmpjs.js",
+    "main": "kmp-matcher.js",
     "repository": {
         "type": "git",
         "url": "http://github.com/guliash/kmp-matcher.git"
