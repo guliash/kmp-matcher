@@ -36,7 +36,7 @@
             }
             return prefix;
         },
-    }
+    };
     if (typeof define === 'function' && define.amd) define(function() { return kmpjs; });
     else if (typeof module !== 'undefined') module.exports = kmpjs;
     else if (typeof self !== 'undefined') self.kmpjs = kmpjs;

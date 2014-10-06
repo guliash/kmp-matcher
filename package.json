@@ -1,0 +1,25 @@
+{
+    "name": "kmpjs",
+    "version": "0.0.1",
+    "description": "Knut Morris Pratt algorithm's js realisation",
+    "keywords": [
+        "kmp",
+        "string",
+        "matching"
+    ],
+    "license": "MIT",
+    "author": "Artem Gilmudinov",
+    "main": "kmpjs.js",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/guliash/kmpjs.git"
+    },
+    "devDependencies": {
+        "tape": "~3.0.0",
+        "faucet": "0.0.1",
+        "jshint": "~2.5.6"
+    },
+    "scripts": {
+        "test": "jshint kmpjs.js test.js && node test.js | faucet"
+    }
+}
