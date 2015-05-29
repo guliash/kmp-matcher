@@ -26,7 +26,7 @@ t('test-kmp-context', function(t) {
 
 t('test-prefix-function-1', function(t) {
     var result = kmp.calcPrefixFunction('aabccaabcdeaac');
-    var need = [-1, 0, -1, -1, -1, 0, 1, 2, 3, -1, -1, 0, 1, -1];
+    var need = [0, 1, 0, 0, 0, 1, 2, 3, 4, 0, 0, 1, 2, 0];
     t.same(result, need);
     t.end();
 });
