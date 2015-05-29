@@ -3,7 +3,7 @@
         kmp: function(s, p) {
             var n = s.length;
             var m = p.length;
-            var prefix = this.calcPrefixFunction(p);
+            var prefix = kmp_matcher.calcPrefixFunction(p);
             var res = [];
             var q = -1;
             for(var i = 0; i < n; i++) {
