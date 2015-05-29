@@ -1,7 +1,7 @@
 {
     "name": "kmp-matcher",
     "version": "0.1.2",
-    "description": "Knut Morris Pratt algorithm's js realisation",
+    "description": "Knuth Morris Pratt algorithm's js realisation",
     "keywords": [
         "kmp",
         "string",
