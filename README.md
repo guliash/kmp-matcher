@@ -1,7 +1,7 @@
 kmp-matcher
 =====
 
-Knut Morris Pratt algroithm's realisation in js
+Knuth Morris Pratt algorithm's realisation in js
 
 Example
 
