@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/guliash/kmp-matcher.svg?branch=master)](https://travis-ci.org/guliash/kmp-matcher)
+
 kmp-matcher
 =====
 
